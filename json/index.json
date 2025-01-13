@@ -1,5 +1,5 @@
 {
-  "spider": "https://github.com/benefit77/CatVodSpider/blob/main/jar/custom_spider.jar",
+  "spider": "https://raw.githubusercontent.com/benefit77/CatVodSpider/main/jar/custom_spider.jar",
   "wallpaper": "https://bing.img.run/rand.php",
   "sites": [
   {
