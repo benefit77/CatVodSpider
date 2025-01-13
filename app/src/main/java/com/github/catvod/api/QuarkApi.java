@@ -41,7 +41,7 @@ import java.util.regex.Pattern;
 
 public class QuarkApi {
     private String apiUrl = "https://drive-pc.quark.cn/1/clouddrive/";
-    private String cookie = "b-user-id=a8c090a9-1915-da3a-328d-6bf17c04d87b; xlly_s=1; __sdid=AASyZcBE/tIaqVy0EGHYbtKETc9rPwg4WDmwKE03vTq2CqhLhsqmGQE8RNFjHMFR54o=; _UP_A4A_11_=wb96c1df87094d80ab4a31b9c2fbac32; _UP_D_=pc; __pus=f9cd4bb63008f83e048ba6cf0f34b5c3AAQgyi9fWJYUdFzZfTKdkap+ZrMa+MQwS3pp9HZF06krNcDa4YW3xKUDte+jHcu3g9uDOe064LCenT7D9sd07Keh; __kp=ee80a010-bd13-11ef-bc7e-333bd8f4ca82; __kps=AATz8sHOm/WzC8z2uAgBSyuw; __ktd=IUa1nyZtTBf05rw+dPXGvQ==; __uid=AATz8sHOm/WzC8z2uAgBSyuw; __puus=3e22cc6cdc968b5bc9b5b729d3c3e552AAQM0APqk57+LLR1nFLAiXSKh+8wUNGnpOehGR+bN3/xbSUwgVtb0KFvK4CYuOqugfqwtZoiS0e+icClstU2H2Iq6b6za1j09d4TGBY5d3u2Nge/5RbhaQk7vde+4r90gd++xWmzGqvvM8iZxsIr6TzT5qe3Q+stLDB+bWXlVzoN9WBpaHF+0RpsRGXjTKiZCMocM0/HrA0JUQOFmdeRrW93; isg=BA8PQn6FtGRoUrCYbVE0i6U2nqMZNGNW4tWRGCEcwn6F8C_yKQY1pgjj8iDOiDvO; tfstk=gkrZqLa2_GIwTLZNivm2YQLRtjotkcf5ioGjn-2mCfcicNU48-wPBxN_njzqt-hgcAb90JDmIoODjfcqTXV3ChGjjjv4G-assFxD0nPbah4joncquYFPHCq4Hnk0nSBtGOQQBRnxm_1SggwTBTYpjcCImt2ncx8XG5UuBRnvppOcPy29gSSzFRm0iDmnBAomnmDcLBDsthDDjxAhLxhnmADioX2nUxkinFV0K9kxtjmmSjh4I-xEFVXRiLnYiHIsSb2iTnxyeAugYghemZqEQJluIaxDmkkZ7o3_ue8i5r2-ylwP0Hn_UymnFRIwY02iU5GQZgxExJw3G4UdM3wZbXm3jzJDmJoZ_7rs5C5EZle32D0CqTy3v5wTx-9V0vNSTREZ0gX-bcciYvEf9hc4-rqsWmdGNVe08WkZqgRyMvmoRoUwiEuipvl5L9JcdBNUug0g4ELx-0HENOM6kE3ipvl5L98vk2cKLb6sC";
+    private String cookie = "";
     private String ckey = "";
     private Map<String, Map<String, Object>> shareTokenCache = new HashMap<>();
     private String pr = "pr=ucpro&fr=pc";

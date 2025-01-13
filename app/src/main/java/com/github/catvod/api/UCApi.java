@@ -44,7 +44,7 @@ import java.util.stream.Collectors;
 
 public class UCApi {
     private String apiUrl = "https://pc-api.uc.cn/1/clouddrive/";
-    private String cookie = "_UP_A4A_11_=wb96a13896174638b4178abc59caea1c; _UP_28A_52_=381; _UP_D_=pc; __pus=5e8ca00f9bd1be616404a960dd4d00a3AAQN3zDiKBOG8akJg3gRfAxDtOlmrgX4eUsEGcAKqq8AyOHZU3f64HWFpEcRIm3mrYRHTIJPnE581+5D3A0//KWE; __kp=3a890bb0-a22e-11ef-ab13-0f64c5e8c1f4; __kps=AASgxjr3q5cXpv9uAAucWwLy; __ktd=1a/v21vaCyTbhdGlaphk4A==; __uid=AASgxjr3q5cXpv9uAAucWwLy; tfstk=fB4odT9wjuoWCoKmiiu5YY8JJcIxVQgICJLKp2HF0xkfNvE8TJVUB-ne2TNEKkD4d_T-zTTEL5wj2YyKypb3n4oQ2vH-K2VQIsBOWNF7N2iNBOQ9LBWE4VGyYXJK0Sl-Wo2JVNF7NI-53RfdWpY4D0ZELJor0qlS3X8zLYuViXlpUH8zLsVqhXKrTboegjls1euE8JPViXGZxekg8raVeXqsunZHxrloqvYKgeqzuFnqQSMD8OzmZekaaxYe8YnP4nV0wTY_M4a8IfeRuU2galyUbS6HSYrT15HE4Q8rDoy7omqvU3lirYmaz0O1O4iUmr08z9t_MSDrjqEAcTnKr8qsC0SfhJVmeJzo0LXxplFYzm2NHE2IxuyogVSrdn-a5RYIg6UDAHirGjD9QRii_G_iFwfcihsS4jGRBsfDAHirGjDOisx6d0ljwOC..; __puus=34683c2831a642d1a3c31a1431095e24AATIQC2vGf4xwY37wUwxVQceBr+QDwxKttFOlAyD53SIQQmqbEWXCb8iOhkJE7iC6d6R0pgfUubeV8RnDodreBAd5lE1KDPkStomSiI2q/cdD8n2ixKHN/aoh6NL5TY2GiDGa5HKCllhViuqIDrg9nqZ//3KmxYVNkILNPvjQnv8e9cgWivy0OCjn0IouefLaV0=";
+    private String cookie = "";
     private String ckey = "";
     private Map<String, Map<String, Object>> shareTokenCache = new HashMap<>();
     private String pr = "pr=UCBrowser&fr=pc";
