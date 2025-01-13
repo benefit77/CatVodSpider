@@ -1,19 +1,7 @@
 {
-  "spider": "https://github.com/benefit77/CatVodSpider/blob/main/jar/custom_spider.jar;md5;86e7dc74ab67a3205cb4c9bc553c17db",
+  "spider": "https://github.com/benefit77/CatVodSpider/blob/main/jar/custom_spider.jar",
   "wallpaper": "https://bing.img.run/rand.php",
   "sites": [
-    {
-	  "key": "Dm84",
-	  "name": "Dm84",
-	  "type": 3,
-	  "api": "csp_Dm84",
-	  "searchable": 1,
-	  "changeable": 0,
-	  "style": {
-		"type": "rect",
-		"ratio": 1.433
-	  }
-	},
     {
       "key": "玩偶",
       "name": "玩偶哥哥",
