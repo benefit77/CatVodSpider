@@ -1,0 +1,51 @@
+plugins {
+    id 'com.android.application'
+    id 'ru.cleverpumpkin.proguard-dictionaries-generator'
+}
+
+android {
+    namespace 'com.github.catvod'
+
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.github.catvod.demo"
+        minSdk 21
+        targetSdk 35
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles 'proguard-rules.pro'
+            proguardDictionaries {
+                dictionaryNames = ["build/class-dictionary", "build/package-dictionary", "build/obfuscation-dictionary"]
+                minLineLength 1
+                maxLineLength 3
+                linesCountInDictionary 100000
+            }
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    configurations.configureEach {
+        resolutionStrategy {
+            force 'com.squareup.okhttp3:okhttp:3.12.13'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.github.thegrizzlylabs:sardine-android:0.9'
+    implementation 'com.squareup.okhttp3:okhttp:3.12.13'
+    implementation 'wang.harlon.quickjs:wrapper-android:2.4.0'
+    implementation 'com.google.code.gson:gson:2.11.0'
+    implementation 'cn.wanghaomiao:JsoupXpath:2.5.1'
+    implementation 'com.orhanobut:logger:2.2.0'
+    implementation 'org.jsoup:jsoup:1.15.3'
+    implementation 'com.google.zxing:core:3.5.2'
+}
