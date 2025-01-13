@@ -2,6 +2,15 @@
   "spider": "https://github.com/benefit77/CatVodSpider/blob/main/jar/custom_spider.jar",
   "wallpaper": "https://bing.img.run/rand.php",
   "sites": [
+  {
+      "key": "木偶",
+      "name": "木偶哥哥",
+      "type": 3,
+      "api": "csp_Mogg",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },
     {
       "key": "玩偶",
       "name": "玩偶哥哥",
