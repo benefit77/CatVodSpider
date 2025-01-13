@@ -3,6 +3,17 @@
   "wallpaper": "https://bing.img.run/rand.php",
   "sites": [
     {
+	  "key": "Dm84",
+	  "name": "Dm84",
+	  "type": 3,
+	  "api": "csp_Dm84",
+	  "searchable": 1,
+	  "changeable": 0,
+	  "style": {
+		"type": "rect",
+		"ratio": 1.433
+	},
+    {
       "key": "玩偶",
       "name": "玩偶哥哥",
       "type": 3,
